@@ -8,13 +8,20 @@
 </template>
 
 <style lang="scss" scoped>
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 .Container {
   width: 200px;
-  border: 3px solid black;
-  box-shadow: -1px 14px 31px 6px rgba(0, 0, 0, 0.9);
+  border: 5px solid black;
+  box-shadow: 5px 5px 21px 5px #0000;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+  p {
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: "Luckiest Guy", cursive;
+  }
 }
 </style>
 

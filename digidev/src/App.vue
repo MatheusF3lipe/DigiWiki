@@ -45,7 +45,7 @@ export default {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   .card {
     margin-right: 150px;
     margin-bottom: 20px;
